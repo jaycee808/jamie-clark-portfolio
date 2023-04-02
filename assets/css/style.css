@@ -10,19 +10,17 @@
 
 body {
     background: #000;
-    color: #C0C0C0;
+    color: #E3E3E3;
 }
 
 a {
-    color: #C0C0C0;
+    color: #E3E3E3;
 }
 
 .logo {
     font-size: 2.5rem;
     font-weight: 800;
-    color: #C0C0C0;
 }
-
 
 /* Navigation Menu */
 
@@ -86,14 +84,14 @@ a {
     font-size: 25px;
     font-weight: 600;
     background: #2800FF;
-    color: #C0C0C0;
+    color: #E3E3E3;
     cursor: pointer;
     border: 2px solid transparent;
     transition: all 0.4s ease;
 }
 
 .home .button:hover {
-    border: 2px solid #C0C0C0;
+    border: 2px solid #E3E3E3;
 }
 
 /* About Section Styles */
