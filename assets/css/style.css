@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400;0,500;0,600;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+
+body {
+    background: #000;
+    color: #C0C0C0;
+}
+
+a {
+    color: #C0C0C0;
+}
+
+.logo {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #C0C0C0;
+}
+
+
+/* Navigation Menu */
+
+
+/* Landing Page Styles */
+
+.home {
+    margin: auto;
+    justify-content: center;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    color: #E3E3E3;
+    padding: 50px 0;
+}
+
+.home-layout {
+    height: 80%;
+    margin: 2rem;
+    display: flex;
+}
+
+.text-one {
+    font-size: 5rem;
+    font-weight: 600;
+    color: #E3E3E3;
+    z-index: 2;
+    align-items: center;
+}
+
+.text-two {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #E3E3E3;
+    z-index: 2;
+    align-items: center;
+}
+
+/* Vertical Text */
+
+.home-page-number {
+    font-size: 25rem;
+    position: absolute;
+    margin-left: 22rem;
+    font-family: 'Syne', sans-serif;
+    font-weight: bold;
+    align-items: flex-end;
+    background-clip: text;
+    color: transparent;
+    z-index: 1;
+    -webkit-text-stroke: 2px #444;
+    -webkit-background-clip: text;
+}
+/* home page buttons */
+
+.home .button {
+    margin: 14px 0;
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 600;
+    background: #2800FF;
+    color: #C0C0C0;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.4s ease;
+}
+
+.home .button:hover {
+    border: 2px solid #C0C0C0;
+}
+
+/* About Section Styles */
+
+
+/* Projects Section Styles */
+
+.title-projects {
+    font-size: 4.5rem;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 750px) {
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+}
+}
+
+/* Glass Cards Styles */
+
+.project-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    z-index: 2;
+}
