@@ -128,11 +128,33 @@ a {
     -webkit-background-clip: text;
 }
 
+.project-content > button {
+    margin: 6px 0;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #2800FF;
+    color: #E3E3E3;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.4s ease;
+}
+
+.project-content button:hover {
+    border: 2px solid #E3E3E3;
+}
+
 .title-projects {
     font-size: 4.5rem;
     font-weight: bold;
     position: relative;
     margin-bottom: 1rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 @media (max-width: 750px) {
