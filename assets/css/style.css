@@ -27,7 +27,7 @@ a {
 
 /* Landing Page Styles */
 
-.home {
+#home {
     margin: auto;
     justify-content: center;
     width: 60%;
@@ -59,24 +59,21 @@ a {
     align-items: center;
 }
 
-/* Vertical Text */
-
 .home-page-number {
     font-size: 25rem;
     position: absolute;
     margin-left: 22rem;
-    font-family: 'Syne', sans-serif;
     font-weight: bold;
     align-items: flex-end;
     background-clip: text;
     color: transparent;
     z-index: 1;
-    -webkit-text-stroke: 2px #444;
+    -webkit-text-stroke: 2px #D3D3D3;
     -webkit-background-clip: text;
 }
-/* home page buttons */
 
-.home .button {
+/* home page buttons */
+#home .button {
     margin: 14px 0;
     outline: none;
     padding: 8px 16px;
@@ -90,7 +87,7 @@ a {
     transition: all 0.4s ease;
 }
 
-.home .button:hover {
+#home .button:hover {
     border: 2px solid #E3E3E3;
 }
 
@@ -103,7 +100,33 @@ a {
     margin-bottom: 1rem;
 }
 
+.about-page-number {
+    font-size: 25rem;
+    position: absolute;
+    margin-left: 22rem;
+    font-weight: bold;
+    align-items: flex-end;
+    background-clip: text;
+    color: transparent;
+    z-index: 1;
+    -webkit-text-stroke: 2px #D3D3D3;
+    -webkit-background-clip: text;
+}
+
 /* Projects Section Styles */
+
+.projects-page-number {
+    font-size: 25rem;
+    position: absolute;
+    margin-left: 22rem;
+    font-weight: bold;
+    align-items: flex-end;
+    background-clip: text;
+    color: transparent;
+    z-index: 1;
+    -webkit-text-stroke: 2px #D3D3D3;
+    -webkit-background-clip: text;
+}
 
 .title-projects {
     font-size: 4.5rem;
@@ -113,7 +136,7 @@ a {
 }
 
 @media (max-width: 750px) {
-.projects {
+#projects {
     display: flex;
     justify-content: space-evenly;
 }
@@ -121,13 +144,8 @@ a {
 
 /* Project Cards Info */
 
-
 .projects-layout {
     display: flex;
-}
-
-.project-card {
-
 }
 
 .project-content {
@@ -140,20 +158,37 @@ a {
 	margin: 0 -40px 30px;
 }
 
-img {
-	display: block;
-	width: 100%;
-}
-
 @media screen and (min-width: 810px) {
 
-	.project {
+	#projects {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
 	}
 
-	.project {
+	.projects {
 		flex-basis: 49%;
 	}
+}
+
+/* Contact Section Styles */
+
+.title-contact {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#contact {
+    display: flex;
+}
+
+.contact-info {
+    display: grid;
+}
+
+.contact-page-number {
+    font-size: 20rem;
+    font-weight: bold;
+    z-index: 1;
 }
