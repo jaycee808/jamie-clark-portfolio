@@ -192,3 +192,10 @@ a {
     font-weight: bold;
     z-index: 1;
 }
+
+/* Footer Styles */
+
+#footer {
+    font-size: 2em;
+    text-align: center;
+}
