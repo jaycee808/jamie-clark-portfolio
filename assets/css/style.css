@@ -98,6 +98,12 @@ a {
 
 /* About Section Styles */
 
+.title-about {
+    font-size: 4.5rem;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 1rem;
+}
 
 /* Projects Section Styles */
 
@@ -115,13 +121,41 @@ a {
 }
 }
 
-/* Glass Cards Styles */
+/* Project Cards Info */
+
+
+.projects-layout {
+    display: flex;
+}
 
 .project-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 40px 0;
-    z-index: 2;
+
+}
+
+.project-content {
+	padding: 0 40px 20px;
+}
+
+.project-content h2 {
+	padding: 20px;
+	text-align: center;
+	margin: 0 -40px 30px;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+@media screen and (min-width: 810px) {
+
+	.project {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.project {
+		flex-basis: 49%;
+	}
 }
