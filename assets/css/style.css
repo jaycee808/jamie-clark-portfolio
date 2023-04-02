@@ -35,8 +35,8 @@ a {
     position: fixed;
     z-index: 9;
     top: 0;
-    left: 0;
-    width: 100vw;
+    right: 0;
+    width: 50vw;
     height: 100vh;
     background-color: #2800FF;
     transform: translateX(-100vw);
@@ -49,7 +49,7 @@ a {
 
 .overlay-slide-left {
     transition: all 0.8s ease-in-out;
-    transform: translateX(-100vw);
+    transform: translateX(100vw);
 }
 
 /* Navigation Menu Items */
