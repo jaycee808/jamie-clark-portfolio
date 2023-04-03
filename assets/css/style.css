@@ -12,6 +12,10 @@ body {
     background: #000;
     color: #E3E3E3;
     width: 90%;
+    background-image: url("../images/background/47.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 a {
@@ -30,6 +34,9 @@ h3, h4 {
     font-size: 24px;
 }
 
+hr {
+    z-index: 2;
+}
 /* #header {
     display: flex;
 } */
@@ -190,7 +197,13 @@ nav li a:hover::before {
     bottom: 5rem;
     font-weight: bold;
     color: #2800FF;
+    opacity: 40%;
     z-index: 1;
+}
+
+.number {
+    font-size: 5em;
+    position: sticky;
 }
 
 .text-one {
@@ -259,7 +272,7 @@ nav li a:hover::before {
 .about-content {
     position: relative;
     top: 4rem;
-    left: 5rem;
+    left: 1rem;
 }
 
 /* Projects Section Styles */
