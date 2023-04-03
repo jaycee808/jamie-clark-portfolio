@@ -31,6 +31,11 @@ h3, h4 {
     font-size: 24px;
 }
 
+#header {
+    display: flex;
+    justify-content: space-around;
+}
+
 #logo {
     font-size: 30px;
     font-weight: 800;
@@ -169,7 +174,6 @@ nav li a:hover::before {
 
 #home {
     height: 100vh;
-    margin: auto;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -196,8 +200,8 @@ nav li a:hover::before {
 .home-page-number {
     font-size: 10rem;
     position: absolute;
-    margin-left: 20rem;
-    margin-top: -8rem;
+    right: 8rem;
+    bottom: 2rem;
     font-weight: bold;
     background-clip: text;
     color: transparent;
@@ -351,8 +355,8 @@ nav li a:hover::before {
 }
 
 .contact-layout {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    justify-content: center;
 }
 
 /* Footer Styles */
