@@ -168,7 +168,6 @@ nav li a:hover::before {
 
 #home {
     height: 100vh;
-    width: 100%;
     margin: auto;
     justify-content: center;
     align-items: center;
@@ -228,52 +227,80 @@ nav li a:hover::before {
 /* About Section Styles */
 
 #about {
-    width: 100%;
+    width: 80%;
+    height: auto;
+}
+
+.about-page-number {
+    font-size: 10rem;
+    position: absolute;
+    margin-left: 0.5rem;
+    font-weight: bold;
+    background-clip: text;
+    color: transparent;
+    z-index: 1;
+    -webkit-text-stroke: 2px #D3D3D3;
+    -webkit-background-clip: text;
 }
 
 .title-about {
     font-size: 4.5rem;
     font-weight: bold;
     position: relative;
-    margin-bottom: 1rem;
+    top: 4rem;
+    left: 5rem;
 }
 
-.about-page-number {
+
+.about-content {
+    position: relative;
+    top: 4rem;
+    left: 5rem;
+}
+
+/* Projects Section Styles */
+
+#projects {
+
+}
+
+.projects-page-number {
     font-size: 10rem;
     position: absolute;
-    margin-left: 2rem;
+    margin-left: 0.5rem;
     font-weight: bold;
     background-clip: text;
     color: transparent;
     z-index: 1;
     -webkit-text-stroke: 2px #D3D3D3;
     -webkit-background-clip: text;
-}
-
-/* Projects Section Styles */
-
-#projects {
-    width: 100%;
-    display: grid;
 }
 
 .title-projects {
     font-size: 4.5rem;
     font-weight: bold;
     position: relative;
-    margin-bottom: 1rem;
+    top: 4rem;
+    left: 5rem;
 }
 
-.projects-page-number {
-    font-size: 10rem;
-    position: absolute;
-    margin-left: 2rem;
-    font-weight: bold;
-    background-clip: text;
-    color: transparent;
-    z-index: 1;
-    -webkit-text-stroke: 2px #D3D3D3;
-    -webkit-background-clip: text;
+/* Project Cards Info */
+
+.projects-layout {
+    display: flex;
+    padding: 0.5rem;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    position: relative;
+    top: 4rem;
+}
+
+.project-card {
+    width: 26rem;
+    border: 1px solid #FFF;
+    margin: 20px;
 }
 
 .project-card > button {
@@ -293,24 +320,6 @@ nav li a:hover::before {
     border: 2px solid #E3E3E3;
 }
 
-/* Project Cards Info */
-
-.projects-layout {
-    display: flex;
-    padding: 0.5rem;
-    align-items: stretch;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-
-    /* flex-flow: column; */
-}
-
-.project-card {
-    width: 26rem;
-    border: 1px solid #FFF;
-    margin: 20px;
-}
-
 .icons {
     display: flex;
     justify-content: space-evenly;
@@ -319,24 +328,34 @@ nav li a:hover::before {
 
 /* Contact Section Styles */
 
-.title-contact {
-    font-size: 4.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-
 #contact {
     height: 80vh;
-    width: 100%;
     display: grid;
 }
 
 .contact-page-number {
     font-size: 10rem;
     position: absolute;
-    margin-left: 2rem;
+    margin-left: 0.5rem;
     font-weight: bold;
+    background-clip: text;
+    color: transparent;
     z-index: 1;
+    -webkit-text-stroke: 2px #D3D3D3;
+    -webkit-background-clip: text;
+}
+
+.title-contact {
+    font-size: 4.5rem;
+    font-weight: bold;
+    position: relative;
+    top: 4rem;
+    left: 5rem;
+}
+
+.contact-layout {
+    display: flex;
+    justify-content: space-around;
 }
 
 /* Footer Styles */
@@ -344,5 +363,4 @@ nav li a:hover::before {
 #footer {
     font-size: 2em;
     text-align: center;
-    width: 100%;
 }
