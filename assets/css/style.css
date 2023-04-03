@@ -2,7 +2,6 @@
 
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     scroll-behavior: smooth;
@@ -31,10 +30,9 @@ h3, h4 {
     font-size: 24px;
 }
 
-#header {
+/* #header {
     display: flex;
-    justify-content: space-around;
-}
+} */
 
 #logo {
     font-size: 30px;
@@ -42,9 +40,8 @@ h3, h4 {
     position: absolute;
     cursor: pointer;
     z-index: 2;
-    top: 1.5rem;
-    left: 1.5rem;
-    font-size: 1.8rem;
+    top: 1rem;
+    left: 0.5rem;
 }
 
 /* Navigation Menu */
@@ -170,15 +167,30 @@ nav li a:hover::before {
     transform: rotate(45deg) translate(-6px, -8px);
 }
 
-/* Landing Page Styles */
+/* Home Styles */
 
 #home {
-    height: 100vh;
+    height: 100dvh;
+}
+
+.home-layout {
+    position: relative;
+    display: grid;
+    top: 40%;
     justify-content: center;
+    /* padding: 50px 0; */
     align-items: center;
-    display: flex;
-    color: #E3E3E3;
-    padding: 50px 0;
+    margin: auto;
+    width: 60%;
+}
+
+.home-page-number {
+    font-size: 16rem;
+    position: absolute;
+    bottom: 5rem;
+    font-weight: bold;
+    color: #2800FF;
+    z-index: 1;
 }
 
 .text-one {
@@ -186,7 +198,7 @@ nav li a:hover::before {
     font-weight: 600;
     color: #E3E3E3;
     z-index: 2;
-    align-items: center;
+    
 }
 
 .text-two {
@@ -197,21 +209,7 @@ nav li a:hover::before {
     align-items: center;
 }
 
-.home-page-number {
-    font-size: 10rem;
-    position: absolute;
-    right: 8rem;
-    bottom: 2rem;
-    font-weight: bold;
-    background-clip: text;
-    color: transparent;
-    z-index: 1;
-    -webkit-text-stroke: 2px #D3D3D3;
-    -webkit-background-clip: text;
-}
-
-/* Landing Page Buttons */
-#home .button {
+.home-button {
     margin: 14px 0;
     outline: none;
     padding: 8px 16px;
@@ -223,17 +221,20 @@ nav li a:hover::before {
     cursor: pointer;
     border: 2px solid transparent;
     transition: all 0.4s ease;
+    width: 14rem;
 }
 
-#home .button:hover {
+.home-button:hover {
     border: 2px solid #E3E3E3;
 }
 
 /* About Section Styles */
 
 #about {
-    width: 80%;
+    width: 100%;
     height: auto;
+    margin-top: 40px;
+    margin-top: 40px;
 }
 
 .about-page-number {
@@ -241,11 +242,8 @@ nav li a:hover::before {
     position: absolute;
     margin-left: 0.5rem;
     font-weight: bold;
-    background-clip: text;
-    color: transparent;
+    color: #2800FF;
     z-index: 1;
-    -webkit-text-stroke: 2px #D3D3D3;
-    -webkit-background-clip: text;
 }
 
 .title-about {
@@ -254,8 +252,9 @@ nav li a:hover::before {
     position: relative;
     top: 4rem;
     left: 5rem;
+    z-index: 2;
+    margin-bottom: 20px;
 }
-
 
 .about-content {
     position: relative;
@@ -265,16 +264,20 @@ nav li a:hover::before {
 
 /* Projects Section Styles */
 
+#projects {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    margin-top: 40px;
+}
+
 .projects-page-number {
     font-size: 10rem;
     position: absolute;
     margin-left: 0.5rem;
     font-weight: bold;
-    background-clip: text;
-    color: transparent;
+    color: #2800FF;
     z-index: 1;
-    -webkit-text-stroke: 2px #D3D3D3;
-    -webkit-background-clip: text;
 }
 
 .title-projects {
@@ -283,6 +286,7 @@ nav li a:hover::before {
     position: relative;
     top: 4rem;
     left: 5rem;
+    z-index: 2;
 }
 
 /* Project Cards Info */
@@ -293,7 +297,6 @@ nav li a:hover::before {
     align-items: stretch;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
     position: relative;
     top: 4rem;
 }
@@ -326,24 +329,31 @@ nav li a:hover::before {
     justify-content: space-evenly;
 }
 
-
 /* Contact Section Styles */
 
 #contact {
-    height: 80vh;
     display: grid;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    margin-top: 40px;
 }
+
+#about {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    margin-top: 40px;
+}
+
 
 .contact-page-number {
     font-size: 10rem;
     position: absolute;
     margin-left: 0.5rem;
     font-weight: bold;
-    background-clip: text;
-    color: transparent;
+    color: #2800FF;
     z-index: 1;
-    -webkit-text-stroke: 2px #D3D3D3;
-    -webkit-background-clip: text;
 }
 
 .title-contact {
@@ -352,6 +362,7 @@ nav li a:hover::before {
     position: relative;
     top: 4rem;
     left: 5rem;
+    z-index: 2;
 }
 
 .contact-layout {
