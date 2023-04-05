@@ -16,6 +16,7 @@ body {
 
 a {
     color: #E3E3E3;
+    text-decoration: none;
 }
 
 p {
@@ -55,7 +56,7 @@ hr {
     z-index: 9;
     top: 0;
     right: 0;
-    width: 50dvw;
+    width: 60dvw;
     height: 100vh;
     background-color: #000;
     opacity: 90%;
@@ -113,10 +114,9 @@ nav li a {
     z-index: 10;
     display: inline;
     cursor: pointer;
-    background-color: #000;
-    opacity: 90%;
     padding: 0.5rem;
     border-radius: 12px;
+    border: 1px solid #FFF;
 }
 
 .bar1 {
