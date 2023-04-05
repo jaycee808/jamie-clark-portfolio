@@ -196,7 +196,7 @@ nav li a {
     border-radius: 6px;
     font-size: 25px;
     font-weight: 600;
-    background: #2626F5;
+    background: #e01117;
     color: #E3E3E3;
     cursor: pointer;
     border: 2px solid transparent;
@@ -229,25 +229,6 @@ nav li a {
         z-index: 2;
         align-items: center;
     }
-    
-    .home-button {
-        margin: 14px 0;
-        outline: none;
-        padding: 8px 16px;
-        border-radius: 6px;
-        font-size: 25px;
-        font-weight: 600;
-        background: #2626F5;
-        color: #E3E3E3;
-        cursor: pointer;
-        border: 2px solid transparent;
-        transition: all 0.4s ease;
-        width: 14rem;
-    }
-    
-    .home-button:hover {
-        border: 2px solid #E3E3E3;
-    }
 }
 
 
@@ -263,7 +244,7 @@ nav li a {
     position: absolute;
     margin-left: 0.5rem;
     font-weight: bold;
-    color: #2626F5;
+    color: #e01117;
     z-index: 1;
 }
 
@@ -303,7 +284,7 @@ nav li a {
     position: absolute;
     margin-left: 0.5rem;
     font-weight: bold;
-    color: #2626F5;
+    color: #e01117;
     z-index: 1;
 }
 
@@ -348,7 +329,7 @@ nav li a {
     border-radius: 6px;
     font-size: 24px;
     font-weight: 600;
-    background: #2626F5;
+    background: #e01117;
     color: #E3E3E3;
     cursor: pointer;
     border: 2px solid transparent;
@@ -378,7 +359,7 @@ nav li a {
     position: absolute;
     margin-left: 0.5rem;
     font-weight: bold;
-    color: #2626F5;
+    color: #e01117;
     z-index: 1;
 }
 
@@ -416,7 +397,7 @@ nav li a {
 
 .card-icon {
     font-size: 28px;
-    background: #2626F5;
+    color: #e01117;
     width: 60px;
     height: 60px;
     text-align: center;
