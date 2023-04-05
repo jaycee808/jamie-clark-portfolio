@@ -7,9 +7,8 @@
 }
 
 body {
-    background: #000;
     color: #E3E3E3;
-    background-image: url("../images/background/47.jpg");
+    background-image: url("../images/background/74.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -56,10 +55,12 @@ hr {
     z-index: 9;
     top: 0;
     right: 0;
-    width: 50vw;
+    width: 48dvw;
     height: 100vh;
-    background-color: #2800FF;
+    background-color: #2626F5;
     transform: translateX(-100vw);
+    opacity: 98%;
+    border-left: 2px solid #FFF;
 }
 
 .overlay-slide-right {
@@ -209,7 +210,7 @@ nav li a:hover::before {
     border-radius: 6px;
     font-size: 25px;
     font-weight: 600;
-    background: #2800FF;
+    background: #2626F5;
     color: #E3E3E3;
     cursor: pointer;
     border: 2px solid transparent;
@@ -225,6 +226,7 @@ nav li a:hover::before {
 
 #about {
     background-color: #000;
+    opacity: 80%;
 }
 
 .about-page-number {
@@ -232,7 +234,7 @@ nav li a:hover::before {
     position: absolute;
     margin-left: 0.5rem;
     font-weight: bold;
-    color: #2800FF;
+    color: #2626F5;
     z-index: 1;
 }
 
@@ -272,7 +274,7 @@ nav li a:hover::before {
     position: absolute;
     margin-left: 0.5rem;
     font-weight: bold;
-    color: #2800FF;
+    color: #2626F5;
     z-index: 1;
 }
 
@@ -303,12 +305,12 @@ nav li a:hover::before {
     margin: 20px;
     border-radius: 8px;
     padding: 0.8rem;
-    background: rgba(255, 255, 255, 0.07);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.4px);
-    -webkit-backdrop-filter: blur(6.4px);
-    border: 1px solid rgba(255, 255, 255, 0.04);
+    background: rgba( 5, 5, 5, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .project-card > button {
@@ -317,7 +319,7 @@ nav li a:hover::before {
     border-radius: 6px;
     font-size: 16px;
     font-weight: 600;
-    background: #2800FF;
+    background: #2626F5;
     color: #E3E3E3;
     cursor: pointer;
     border: 2px solid transparent;
@@ -347,7 +349,7 @@ nav li a:hover::before {
     position: absolute;
     margin-left: 0.5rem;
     font-weight: bold;
-    color: #2800FF;
+    color: #2626F5;
     z-index: 1;
 }
 
@@ -385,7 +387,7 @@ nav li a:hover::before {
 
 .card-icon {
     font-size: 28px;
-    background: #2800FF;
+    background: #2626F5;
     width: 60px;
     height: 60px;
     text-align: center;
@@ -410,12 +412,4 @@ nav li a:hover::before {
         max-width: 300px;
         margin: 10px 0;
     }
-}
-
-/* Footer Styles */
-
-#footer {
-    font-size: 2em;
-    text-align: center;
-    background-color: #000;
 }
