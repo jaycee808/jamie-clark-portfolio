@@ -48,7 +48,6 @@ hr {
     justify-content: space-between;
     align-items: center;
     color: white;
-    border-bottom: 1px solid #FFF;
 }
 
 .navbar-links {
@@ -182,7 +181,6 @@ hr {
 
 #about {
     background-color: #000;
-    height: fit-content;
 }
 
 .about-page-number {
@@ -222,6 +220,7 @@ hr {
 
 #projects {
     margin-top: 40px;
+    padding-bottom: 3rem;
 }
 
 .projects-page-number {
@@ -289,6 +288,7 @@ hr {
 #contact {
     display: grid;
     margin-top: 40px;
+    background-color: #000;
 }
 
 .contact-page-number {
@@ -320,4 +320,5 @@ hr {
 #footer {
     font-size: 2em;
     text-align: center;
+    background-color: #000;
 }
