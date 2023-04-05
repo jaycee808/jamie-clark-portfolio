@@ -42,6 +42,7 @@ hr {
     margin: 1rem;
     padding: 0;
 }
+
 .navbar {
     display: flex;
     position: relative;
@@ -102,6 +103,7 @@ hr {
 
     .toggle-button {
         display: flex;
+        position: fixed;
     }
 
     .navbar-links {
@@ -112,10 +114,11 @@ hr {
     .navbar-links ul {
         width: 100%;
         flex-direction: column;
+        
     }
 
     .navbar-links ul li {
-        text-align: center;
+        text-align: flex-start;
     }
 
     .navbar-links ul li a {
