@@ -11,22 +11,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 <body>
-<!-- Navigation bar -->
-<nav class="navbar">
-    <div id="logo">Jamie Clark</div>
-        <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-            <div class="navbar-links">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-</nav>
+<!-- Navigation Menu -->
+<div id="header">
+    <h1 id="logo">Jamie Clark</h1>
+    <!-- Menu Overlay -->
+    <div class="overlay overlay-slide-left" id="overlay">
+        <!-- Menu Items -->
+        <nav id="navbar">
+            
+            <ul>
+                <li><a href="#">Jamie Clark</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Menu Bars -->
+    <div class="menu-bars" id="menu-bars">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    </div>
 
 <!-- Home Page Section -->
 <section id="home">
@@ -161,50 +168,42 @@
             <button><a href="" target="_blank">Live Demo</a></button>
             <button><a href="https://github.com/jaycee808" target="_blank">Source Code</a></button>
             
-            <!-- <h3>Technologies Used</h3>
+            <h3>Technologies Used</h3>
             <hr>
             <div class="icons">
-                <i class="fa-brands fa-html5"></i>
                 <p>HTML</p>
-                <i class="fa-brands fa-css3-alt"></i>
                 <p>CSS</p>
-                <i class="fa-brands fa-js-square"></i>
                 <p>JavaScript</p>
-            </div> -->
-        </div>
             </div>
+        </div>
+    </div>
 </section>
 
-<!-- Contact section -->
-
+<!-- Contact Section -->
 <section id="contact">
     <div class="contact-page-number">03</div>
-    <div class="title-contact">contact.</div>
-    <div class="contact-layout">
-    <div class="contact-info">
-        <i class="fa-sharp fa-regular fa-envelope"></i>
-        <h3>Email</h3>
-        <h4><a href="#">jamie.clark@live.co.uk</a></h4>
-    </div>
-
-
-    <div class="contact-info">
-        <i class="fa-solid fa-phone"></i>
-        <h3>Phone</h3>
-        <h4>07703898555</h4>
-    </div>
-
-    <div class="contact-info">
-        <i class="fa-solid fa-location-dot"></i>
-        <h3>Address</h3>
-        <h4>Manchester, UK</h4>
-    </div>
-</div>
+        <div class="title-contact">contact.</div>
+            <div class="contact-info">
+                <div class="card">
+                    <i class="card-icon far fa-envelope"></i>
+                    <p>jamie.clark@live.co.uk</p>
+                </div>
+    
+                <div class="card">
+                    <i class="card-icon fas fa-phone"></i>
+                    <p>07703 898 555</p>
+                </div>
+            
+                <div class="card">
+                    <i class="card-icon fas fa-map-marker-alt"></i>
+                    <p>Manchester, UK</p>
+                </div>
+            </div>
 </section>
 
 <!-- Footer -->
 <footer id="footer">
-    <h4>Jamie Clark &copy; 2023</h4>
+    <p>Jamie Clark &copy; 2023</h>
 </footer>
 
 <!-- JavaScript -->
