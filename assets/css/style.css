@@ -198,60 +198,24 @@ nav li a {
 .home .home-info {
     width: 90%;
     height: 80%;
-    margin-top: 6rem;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    margin: 4rem;
+    margin-right: 0px;
     color: #FFF;
 }
 
 /* Vertical Text */
 
-.vertical-text-name {
+.vertical-text {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    font-size: 10rem;
+    font-size: 8rem;
     position: sticky;
+    font-family: 'Tenorite', sans-serif;
     font-weight: bold;
     -webkit-text-stroke: 2px #FFF;
     color: transparent;
 }
 
-@media (max-width: 715px) {
-    .vertical-text-about {
-        writing-mode: vertical-lr;
-        transform: rotate(180deg);
-        font-size: 5em;
-    }
-}
-
-@media (max-width: 605px) {
-    .vertical-text-about {
-        writing-mode: vertical-lr;
-        transform: rotate(180deg);
-        font-size: 4em;
-        position: relative;
-    }
-}
-
-@media (max-width: 500px) {
-    .vertical-text-about {
-        writing-mode: vertical-lr;
-        transform: rotate(180deg);
-        font-size: 3em;
-        position: relative;
-    }
-}
-
-@media (max-width: 400px) {
-    .vertical-text-about {
-        writing-mode: vertical-lr;
-        transform: rotate(180deg);
-        font-size: 2em;
-        position: relative;
-    }
-}
 
 /* Home Page Text */
 
@@ -283,7 +247,7 @@ nav li a {
     outline: none;
     padding: 8px 16px;
     border-radius: 6px;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 600;
     background: #e01117;
     color: #E3E3E3;
@@ -296,30 +260,6 @@ nav li a {
 .home-button:hover {
     border: 2px solid #E3E3E3;
 }
-
-@media screen and (max-width:800px) {
-    .home-layout {
-        top: 10%;
-        margin-left: 0.5rem;
-    }
-    
-    .text-one {
-        font-size: 68px;
-        font-weight: 600;
-        color: #E3E3E3;
-        z-index: 2;
-        
-    }
-    
-    .text-two {
-        font-size: 48px;
-        font-weight: 600;
-        color: #E3E3E3;
-        z-index: 2;
-        align-items: center;
-    }
-}
-
 
 /* About Section Styles */
 
