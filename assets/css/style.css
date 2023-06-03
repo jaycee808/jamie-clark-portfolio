@@ -161,38 +161,9 @@ nav li a {
 
 /* Home Page Styles */
 
-/* #home {
-    height: 100dvh;
-}
-
-.home-layout {
-    position: relative;
-    display: grid;
-    top: 20%;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
-.text-one {
-    font-size: 72px;
-    font-weight: 600;
-    color: #E3E3E3;
-    z-index: 2;
-    
-}
-
-.text-two {
-    font-size: 48px;
-    font-weight: 600;
-    color: #E3E3E3;
-    z-index: 2;
-    align-items: center;
-} */
-
 .home {
     height: 100vh;
-    width: 100%;
+    width: 90%;
 }
 
 .home .home-info {
@@ -259,6 +230,19 @@ nav li a {
 
 .home-button:hover {
     border: 2px solid #E3E3E3;
+}
+
+@media screen and (max-width:500px) {
+
+    .home {
+        height: 100vh;
+        width: 80%;
+    }
+    
+    .home .home-info {
+        margin-left: 20px;
+    }
+
 }
 
 /* About Section Styles */
