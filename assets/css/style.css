@@ -161,6 +161,11 @@ nav li a {
 
 /* Home Page Styles */
 
+#homepage {
+    height: 100dvh;
+    width: 100%;
+}
+
 .home {
     height: 100vh;
     width: 90%;
@@ -234,10 +239,6 @@ nav li a {
 
 @media screen and (max-width:500px) {
     
-    #about {
-        width: 100dvw;
-    }
-
     .about-content > p {
         margin-left: 2px;
     }
@@ -257,6 +258,19 @@ nav li a {
         margin-left: 20px;
     }
 
+    .project-card > button {
+        margin-top: 2rem;
+        padding: 2px 4px;
+        border-radius: 6px;
+        font-size: 24px;
+        font-weight: 600;
+        background: #e01117;
+        color: #E3E3E3;
+        cursor: pointer;
+        border: 1px solid;
+        transition: all 0.4s ease;
+    }
+
 }
 
 /* About Section Styles */
@@ -264,6 +278,7 @@ nav li a {
 #about {
     background-color: #000;
     opacity: 80%;
+    width: 100dvw;
 }
 
 .about-page-number {
@@ -378,6 +393,7 @@ nav li a {
     display: grid;
     margin-top: 40px;
     background-color: #000;
+    width: 100dvw;
 }
 
 
