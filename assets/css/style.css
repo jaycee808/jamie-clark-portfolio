@@ -233,9 +233,14 @@ nav li a {
 }
 
 @media screen and (max-width:500px) {
+    
+    #homepage {
+        height: 100dvh;
+        width: 95%;
+    }
 
     .home {
-        height: 100vh;
+        height: 100dvh;
         width: 80%;
     }
     
