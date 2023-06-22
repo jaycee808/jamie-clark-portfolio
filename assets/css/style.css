@@ -162,7 +162,7 @@ nav li a {
 /* Home Page Styles */
 
 #homepage {
-    height: 100dvh;
+    height: 100vh;
     width: 100%;
 }
 
@@ -300,6 +300,7 @@ nav li a {
 #about {
     background-color: #000;
     opacity: 80%;
+    width: 100vw;
 }
 
 .about-page-number {
@@ -312,7 +313,7 @@ nav li a {
 }
 
 .title-about {
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: bold;
     position: relative;
     top: 4rem;
@@ -352,7 +353,7 @@ nav li a {
 }
 
 .title-projects {
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: bold;
     position: relative;
     top: 4rem;
@@ -414,6 +415,7 @@ nav li a {
     display: grid;
     margin-top: 40px;
     background-color: #000;
+    width: 100vw;
 }
 
 
@@ -427,7 +429,7 @@ nav li a {
 }
 
 .title-contact {
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: bold;
     position: relative;
     top: 4rem;
